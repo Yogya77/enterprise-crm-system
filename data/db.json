@@ -1,0 +1,131 @@
+{
+  "users": [
+    {
+      "id": "user-1",
+      "name": "Admin User",
+      "email": "admin@crm.com",
+      "password": "admin123",
+      "role": "Admin"
+    },
+    {
+      "id": "user-2",
+      "name": "Sales User",
+      "email": "sales@crm.com",
+      "password": "sales123",
+      "role": "Sales"
+    }
+  ],
+  "leads": [
+    {
+      "id": "lead-1",
+      "name": "Rahul Sharma",
+      "company": "BrightKart",
+      "email": "rahul@brightkart.in",
+      "phone": "+91 98765 43210",
+      "source": "Website",
+      "status": "New",
+      "owner": "Sales User",
+      "createdAt": "2026-06-24"
+    },
+    {
+      "id": "lead-2",
+      "name": "Priya Mehta",
+      "company": "CloudNest",
+      "email": "priya@cloudnest.in",
+      "phone": "+91 91234 56780",
+      "source": "LinkedIn",
+      "status": "Contacted",
+      "owner": "Admin User",
+      "createdAt": "2026-06-22"
+    },
+    {
+      "id": "lead-3",
+      "name": "Aman Verma",
+      "company": "FinEdge",
+      "email": "aman@finedge.in",
+      "phone": "+91 99887 76655",
+      "source": "Referral",
+      "status": "Qualified",
+      "owner": "Sales User",
+      "createdAt": "2026-06-20"
+    }
+  ],
+  "customers": [
+    {
+      "id": "customer-1",
+      "name": "Neha Kapoor",
+      "company": "UrbanMart",
+      "email": "neha@urbanmart.in",
+      "plan": "Enterprise",
+      "health": "Excellent",
+      "value": 240000
+    },
+    {
+      "id": "customer-2",
+      "name": "Karan Malhotra",
+      "company": "EduSpark",
+      "email": "karan@eduspark.in",
+      "plan": "Standard",
+      "health": "Good",
+      "value": 95000
+    }
+  ],
+  "deals": [
+    {
+      "id": "deal-1",
+      "title": "UrbanMart renewal",
+      "company": "UrbanMart",
+      "value": 240000,
+      "stage": "Won",
+      "owner": "Admin User",
+      "closeDate": "2026-06-18"
+    },
+    {
+      "id": "deal-2",
+      "title": "CloudNest CRM rollout",
+      "company": "CloudNest",
+      "value": 175000,
+      "stage": "Proposal",
+      "owner": "Sales User",
+      "closeDate": "2026-07-10"
+    },
+    {
+      "id": "deal-3",
+      "title": "FinEdge analytics plan",
+      "company": "FinEdge",
+      "value": 125000,
+      "stage": "Negotiation",
+      "owner": "Admin User",
+      "closeDate": "2026-07-15"
+    },
+    {
+      "id": "deal-4",
+      "title": "EduSpark support upgrade",
+      "company": "EduSpark",
+      "value": 95000,
+      "stage": "Won",
+      "owner": "Sales User",
+      "closeDate": "2026-06-26"
+    }
+  ],
+  "activities": [
+    {
+      "id": "activity-1",
+      "type": "Deal",
+      "note": "Sales User moved CloudNest CRM rollout to Proposal",
+      "date": "2026-06-29"
+    },
+    {
+      "id": "activity-2",
+      "type": "Lead",
+      "note": "Admin User contacted Priya Mehta",
+      "date": "2026-06-28"
+    },
+    {
+      "id": "activity-3",
+      "type": "Customer",
+      "note": "UrbanMart renewal marked as won",
+      "date": "2026-06-26"
+    }
+  ]
+}

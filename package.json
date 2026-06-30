@@ -1,0 +1,11 @@
+{
+  "name": "enterprise-crm-system",
+  "version": "1.0.0",
+  "description": "Enterprise CRM System with leads, customers, sales pipeline, dashboard analytics, activity logs, and role-based access.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
